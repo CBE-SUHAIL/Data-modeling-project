@@ -4,7 +4,7 @@ from database import get_connection
 
 router = APIRouter()
 
-# Pydantic model matching your table
+# Pydantic model matching your tables
 class Crop(BaseModel):
     crop_name: str
     season: str
